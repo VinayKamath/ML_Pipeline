@@ -1,0 +1,10 @@
+dataset:
+    script_path: ../data/raw/titanic/train.csv
+model:
+    script_path: ../models/pipe.pkl
+train_test_split: 
+    test_size: 0.2
+    random_state: 42
+feature_selection: 
+    score_function: chi2
+    k_highest_score: 8
